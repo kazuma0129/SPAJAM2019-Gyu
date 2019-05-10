@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4533408D2285C35200893B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533408C2285C35200893B7C /* AppDelegate.swift */; };
+		4533408F2285C35200893B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533408E2285C35200893B7C /* ViewController.swift */; };
+		453340922285C35200893B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340902285C35200893B7C /* Main.storyboard */; };
+		453340942285C35400893B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453340932285C35400893B7C /* Assets.xcassets */; };
+		453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340952285C35400893B7C /* LaunchScreen.storyboard */; };
+		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
+		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4533409E2285C35400893B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453340812285C35200893B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453340882285C35200893B7C;
+			remoteInfo = "SPAJAM-Gyu";
+		};
+		453340A92285C35400893B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453340812285C35200893B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453340882285C35200893B7C;
+			remoteInfo = "SPAJAM-Gyu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		453340892285C35200893B7C /* SPAJAM-Gyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPAJAM-Gyu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4533408C2285C35200893B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4533408E2285C35200893B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		453340912285C35200893B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		453340932285C35400893B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453340962285C35400893B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		453340982285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4533409D2285C35400893B7C /* SPAJAM-GyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuTests.swift; sourceTree = "<group>"; };
+		453340A32285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuUITests.swift; sourceTree = "<group>"; };
+		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453340862285C35200893B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533409A2285C35400893B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453340A52285C35400893B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453340802285C35200893B7C = {
+			isa = PBXGroup;
+			children = (
+				4533408B2285C35200893B7C /* SPAJAM-Gyu */,
+				453340A02285C35400893B7C /* SPAJAM-GyuTests */,
+				453340AB2285C35400893B7C /* SPAJAM-GyuUITests */,
+				4533408A2285C35200893B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4533408A2285C35200893B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453340892285C35200893B7C /* SPAJAM-Gyu.app */,
+				4533409D2285C35400893B7C /* SPAJAM-GyuTests.xctest */,
+				453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4533408B2285C35200893B7C /* SPAJAM-Gyu */ = {
+			isa = PBXGroup;
+			children = (
+				4533408C2285C35200893B7C /* AppDelegate.swift */,
+				4533408E2285C35200893B7C /* ViewController.swift */,
+				453340902285C35200893B7C /* Main.storyboard */,
+				453340932285C35400893B7C /* Assets.xcassets */,
+				453340952285C35400893B7C /* LaunchScreen.storyboard */,
+				453340982285C35400893B7C /* Info.plist */,
+			);
+			path = "SPAJAM-Gyu";
+			sourceTree = "<group>";
+		};
+		453340A02285C35400893B7C /* SPAJAM-GyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */,
+				453340A32285C35400893B7C /* Info.plist */,
+			);
+			path = "SPAJAM-GyuTests";
+			sourceTree = "<group>";
+		};
+		453340AB2285C35400893B7C /* SPAJAM-GyuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */,
+				453340AE2285C35400893B7C /* Info.plist */,
+			);
+			path = "SPAJAM-GyuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453340882285C35200893B7C /* SPAJAM-Gyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453340B12285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-Gyu" */;
+			buildPhases = (
+				453340852285C35200893B7C /* Sources */,
+				453340862285C35200893B7C /* Frameworks */,
+				453340872285C35200893B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPAJAM-Gyu";
+			productName = "SPAJAM-Gyu";
+			productReference = 453340892285C35200893B7C /* SPAJAM-Gyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4533409C2285C35400893B7C /* SPAJAM-GyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453340B42285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuTests" */;
+			buildPhases = (
+				453340992285C35400893B7C /* Sources */,
+				4533409A2285C35400893B7C /* Frameworks */,
+				4533409B2285C35400893B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4533409F2285C35400893B7C /* PBXTargetDependency */,
+			);
+			name = "SPAJAM-GyuTests";
+			productName = "SPAJAM-GyuTests";
+			productReference = 4533409D2285C35400893B7C /* SPAJAM-GyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		453340A72285C35400893B7C /* SPAJAM-GyuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453340B72285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuUITests" */;
+			buildPhases = (
+				453340A42285C35400893B7C /* Sources */,
+				453340A52285C35400893B7C /* Frameworks */,
+				453340A62285C35400893B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453340AA2285C35400893B7C /* PBXTargetDependency */,
+			);
+			name = "SPAJAM-GyuUITests";
+			productName = "SPAJAM-GyuUITests";
+			productReference = 453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453340812285C35200893B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = KazumaOhashi;
+				TargetAttributes = {
+					453340882285C35200893B7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4533409C2285C35400893B7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 453340882285C35200893B7C;
+					};
+					453340A72285C35400893B7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 453340882285C35200893B7C;
+					};
+				};
+			};
+			buildConfigurationList = 453340842285C35200893B7C /* Build configuration list for PBXProject "SPAJAM-Gyu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453340802285C35200893B7C;
+			productRefGroup = 4533408A2285C35200893B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453340882285C35200893B7C /* SPAJAM-Gyu */,
+				4533409C2285C35400893B7C /* SPAJAM-GyuTests */,
+				453340A72285C35400893B7C /* SPAJAM-GyuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453340872285C35200893B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */,
+				453340942285C35400893B7C /* Assets.xcassets in Resources */,
+				453340922285C35200893B7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533409B2285C35400893B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453340A62285C35400893B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453340852285C35200893B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4533408F2285C35200893B7C /* ViewController.swift in Sources */,
+				4533408D2285C35200893B7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453340992285C35400893B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453340A42285C35400893B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4533409F2285C35400893B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 453340882285C35200893B7C /* SPAJAM-Gyu */;
+			targetProxy = 4533409E2285C35400893B7C /* PBXContainerItemProxy */;
+		};
+		453340AA2285C35400893B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 453340882285C35200893B7C /* SPAJAM-Gyu */;
+			targetProxy = 453340A92285C35400893B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		453340902285C35200893B7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453340912285C35200893B7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		453340952285C35400893B7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453340962285C35400893B7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453340AF2285C35400893B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		453340B02285C35400893B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453340B22285C35400893B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-Gyu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-Gyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453340B32285C35400893B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-Gyu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-Gyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		453340B52285C35400893B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-GyuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-GyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPAJAM-Gyu.app/SPAJAM-Gyu";
+			};
+			name = Debug;
+		};
+		453340B62285C35400893B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-GyuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-GyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPAJAM-Gyu.app/SPAJAM-Gyu";
+			};
+			name = Release;
+		};
+		453340B82285C35400893B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-GyuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-GyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SPAJAM-Gyu";
+			};
+			name = Debug;
+		};
+		453340B92285C35400893B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V49J2D76U;
+				INFOPLIST_FILE = "SPAJAM-GyuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kazuma.SPAJAM-GyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SPAJAM-Gyu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453340842285C35200893B7C /* Build configuration list for PBXProject "SPAJAM-Gyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453340AF2285C35400893B7C /* Debug */,
+				453340B02285C35400893B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453340B12285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-Gyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453340B22285C35400893B7C /* Debug */,
+				453340B32285C35400893B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453340B42285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453340B52285C35400893B7C /* Debug */,
+				453340B62285C35400893B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453340B72285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453340B82285C35400893B7C /* Debug */,
+				453340B92285C35400893B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453340812285C35200893B7C /* Project object */;
+}
