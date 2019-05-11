@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D9CCA4BCE16E7E62685878 /* Pods_SPAJAM_GyuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2344496602F3ECE3B6575907 /* Pods_SPAJAM_GyuUITests.framework */; };
 		4533408D2285C35200893B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533408C2285C35200893B7C /* AppDelegate.swift */; };
 		4533408F2285C35200893B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533408E2285C35200893B7C /* ViewController.swift */; };
 		453340922285C35200893B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340902285C35200893B7C /* Main.storyboard */; };
@@ -14,8 +15,11 @@
 		453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340952285C35400893B7C /* LaunchScreen.storyboard */; };
 		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
 		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
+		45E8541E228705E700273748 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E8541D228705E700273748 /* GoogleService-Info.plist */; };
 		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
 		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
+		9B34EC9FD7B91F86B590EE82 /* Pods_SPAJAM_GyuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */; };
+		D35717711747809D92D26207 /* Pods_SPAJAM_Gyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F6B38DFD1E258B311E2272 /* Pods-SPAJAM-GyuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuUITests.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuUITests/Pods-SPAJAM-GyuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAJAM_GyuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2344496602F3ECE3B6575907 /* Pods_SPAJAM_GyuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAJAM_GyuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453340892285C35200893B7C /* SPAJAM-Gyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPAJAM-Gyu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4533408C2285C35200893B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4533408E2285C35200893B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +56,15 @@
 		453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuUITests.swift; sourceTree = "<group>"; };
 		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E8541D228705E700273748 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B58EB990739DA08546A4769 /* Pods-SPAJAM-GyuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuTests.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAJAM_Gyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDCA7AC6CD60376DC1163B /* Pods-SPAJAM-Gyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-Gyu.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu.release.xcconfig"; sourceTree = "<group>"; };
+		BF947EC8CF5764029765BBF6 /* Pods-SPAJAM-Gyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-Gyu.debug.xcconfig"; path = "Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu.debug.xcconfig"; sourceTree = "<group>"; };
+		E66A726F74D4BF8EB5D1D814 /* Pods-SPAJAM-GyuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuUITests.debug.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuUITests/Pods-SPAJAM-GyuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D9FE9B7ED917387E53AF64 /* Pods-SPAJAM-GyuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuTests.debug.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35717711747809D92D26207 /* Pods_SPAJAM_Gyu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B34EC9FD7B91F86B590EE82 /* Pods_SPAJAM_GyuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D9CCA4BCE16E7E62685878 /* Pods_SPAJAM_GyuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				453340A02285C35400893B7C /* SPAJAM-GyuTests */,
 				453340AB2285C35400893B7C /* SPAJAM-GyuUITests */,
 				4533408A2285C35200893B7C /* Products */,
+				6F14939D31BC4097F2459AB8 /* Pods */,
+				C306EC7E49C43BA20B08447B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,7 @@
 		4533408B2285C35200893B7C /* SPAJAM-Gyu */ = {
 			isa = PBXGroup;
 			children = (
+				45E8541D228705E700273748 /* GoogleService-Info.plist */,
 				5B3CA9FD2286B71F00932CE4 /* ViewController */,
 				5B3CA9FC2286B70D00932CE4 /* Storyboard */,
 				4533408C2285C35200893B7C /* AppDelegate.swift */,
@@ -179,6 +199,29 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		6F14939D31BC4097F2459AB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF947EC8CF5764029765BBF6 /* Pods-SPAJAM-Gyu.debug.xcconfig */,
+				87DDCA7AC6CD60376DC1163B /* Pods-SPAJAM-Gyu.release.xcconfig */,
+				F6D9FE9B7ED917387E53AF64 /* Pods-SPAJAM-GyuTests.debug.xcconfig */,
+				4B58EB990739DA08546A4769 /* Pods-SPAJAM-GyuTests.release.xcconfig */,
+				E66A726F74D4BF8EB5D1D814 /* Pods-SPAJAM-GyuUITests.debug.xcconfig */,
+				01F6B38DFD1E258B311E2272 /* Pods-SPAJAM-GyuUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C306EC7E49C43BA20B08447B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */,
+				1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */,
+				2344496602F3ECE3B6575907 /* Pods_SPAJAM_GyuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453340B12285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-Gyu" */;
 			buildPhases = (
+				D05EAB88ED182EF86859F859 /* [CP] Check Pods Manifest.lock */,
 				453340852285C35200893B7C /* Sources */,
 				453340862285C35200893B7C /* Frameworks */,
 				453340872285C35200893B7C /* Resources */,
+				BE593BBC3DD8A901F019A7B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453340B42285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuTests" */;
 			buildPhases = (
+				0851C907F4A03EE09C5A5AC3 /* [CP] Check Pods Manifest.lock */,
 				453340992285C35400893B7C /* Sources */,
 				4533409A2285C35400893B7C /* Frameworks */,
 				4533409B2285C35400893B7C /* Resources */,
+				3DD37677E823250BEC689788 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453340B72285C35400893B7C /* Build configuration list for PBXNativeTarget "SPAJAM-GyuUITests" */;
 			buildPhases = (
+				B529C57CD3FCB2D9C83099D3 /* [CP] Check Pods Manifest.lock */,
 				453340A42285C35400893B7C /* Sources */,
 				453340A52285C35400893B7C /* Frameworks */,
 				453340A62285C35400893B7C /* Resources */,
+				F53042B05AEEE9E98B1BB310 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +337,7 @@
 			files = (
 				453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */,
 				5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */,
+				45E8541E228705E700273748 /* GoogleService-Info.plist in Resources */,
 				453340942285C35400893B7C /* Assets.xcassets in Resources */,
 				453340922285C35200893B7C /* Main.storyboard in Resources */,
 			);
@@ -308,6 +358,147 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0851C907F4A03EE09C5A5AC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAJAM-GyuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD37677E823250BEC689788 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B529C57CD3FCB2D9C83099D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAJAM-GyuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE593BBC3DD8A901F019A7B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05EAB88ED182EF86859F859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAJAM-Gyu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53042B05AEEE9E98B1BB310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-GyuUITests/Pods-SPAJAM-GyuUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPAJAM-GyuUITests/Pods-SPAJAM-GyuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		453340852285C35200893B7C /* Sources */ = {
@@ -491,6 +682,7 @@
 		};
 		453340B22285C35400893B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF947EC8CF5764029765BBF6 /* Pods-SPAJAM-Gyu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +702,7 @@
 		};
 		453340B32285C35400893B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DDCA7AC6CD60376DC1163B /* Pods-SPAJAM-Gyu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +722,7 @@
 		};
 		453340B52285C35400893B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D9FE9B7ED917387E53AF64 /* Pods-SPAJAM-GyuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +744,7 @@
 		};
 		453340B62285C35400893B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B58EB990739DA08546A4769 /* Pods-SPAJAM-GyuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +766,7 @@
 		};
 		453340B82285C35400893B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66A726F74D4BF8EB5D1D814 /* Pods-SPAJAM-GyuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +787,7 @@
 		};
 		453340B92285C35400893B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F6B38DFD1E258B311E2272 /* Pods-SPAJAM-GyuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
