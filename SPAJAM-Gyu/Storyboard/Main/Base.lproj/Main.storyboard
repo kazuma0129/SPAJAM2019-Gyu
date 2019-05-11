@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="Xng-fF-03j" kind="show" id="0yG-Qm-qTp"/>
+                                    <segue destination="Xng-fF-03j" kind="modal" id="bK4-99-5UB"/>
                                 </connections>
                             </button>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYU-08-f4H">
