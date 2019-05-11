@@ -1,0 +1,6 @@
+framework module Pods_SPAJAM_Gyu {
+  umbrella header "Pods-SPAJAM-Gyu-umbrella.h"
+
+  export *
+  module * { export * }
+}
