@@ -26,6 +26,7 @@
 		5B0D31F8228756E000984DEC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D31F7228756E000984DEC /* MyCollectionViewCell.swift */; };
 		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
 		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
+		5BBB33A422876CA60022A3DF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB33A322876CA60022A3DF /* CustomTableViewCell.swift */; };
 		9B34EC9FD7B91F86B590EE82 /* Pods_SPAJAM_GyuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */; };
 		D35717711747809D92D26207 /* Pods_SPAJAM_Gyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		5B0D31F7228756E000984DEC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		5BBB33A322876CA60022A3DF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAJAM_Gyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DDCA7AC6CD60376DC1163B /* Pods-SPAJAM-Gyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-Gyu.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu.release.xcconfig"; sourceTree = "<group>"; };
 		BF947EC8CF5764029765BBF6 /* Pods-SPAJAM-Gyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-Gyu.debug.xcconfig"; path = "Target Support Files/Pods-SPAJAM-Gyu/Pods-SPAJAM-Gyu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				5B0D31EF22872F4800984DEC /* FavoriteViewController.swift */,
 				5B0D31F122872F5100984DEC /* RankingViewController.swift */,
 				5B0D31F7228756E000984DEC /* MyCollectionViewCell.swift */,
+				5BBB33A322876CA60022A3DF /* CustomTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBB33A422876CA60022A3DF /* CustomTableViewCell.swift in Sources */,
 				5B0D31EE22872F3600984DEC /* HomeViewController.swift in Sources */,
 				4533408F2285C35200893B7C /* ViewController.swift in Sources */,
 				5B0D31F8228756E000984DEC /* MyCollectionViewCell.swift in Sources */,
