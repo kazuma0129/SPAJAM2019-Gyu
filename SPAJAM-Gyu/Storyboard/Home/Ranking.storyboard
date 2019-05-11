@@ -22,6 +22,14 @@
                                 <rect key="frame" x="-32" y="0.0" width="478" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru" translatesAutoresizingMaskIntoConstraints="NO" id="0VQ-V3-BkN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru2" translatesAutoresizingMaskIntoConstraints="NO" id="9Po-di-3eQ">
+                                <rect key="frame" x="0.0" y="109" width="414" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BXj-Nl-EVc"/>
@@ -37,5 +45,7 @@
     <resources>
         <image name="back" width="125" height="89"/>
         <image name="star" width="30" height="29"/>
+        <image name="zuru" width="1000" height="130"/>
+        <image name="zuru2" width="972" height="274"/>
     </resources>
 </document>

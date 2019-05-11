@@ -22,6 +22,14 @@
                                 <rect key="frame" x="-32" y="-3" width="478" height="332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru" translatesAutoresizingMaskIntoConstraints="NO" id="43Z-Tg-Fic">
+                                <rect key="frame" x="0.0" y="-10" width="414" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru2" translatesAutoresizingMaskIntoConstraints="NO" id="Jjz-no-Iwo">
+                                <rect key="frame" x="0.0" y="89" width="414" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4Je-a0-7tw"/>
@@ -37,5 +45,7 @@
     <resources>
         <image name="back" width="125" height="89"/>
         <image name="heart" width="29" height="27"/>
+        <image name="zuru" width="1000" height="130"/>
+        <image name="zuru2" width="972" height="274"/>
     </resources>
 </document>
