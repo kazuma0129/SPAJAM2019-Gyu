@@ -14,5 +14,6 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         
         let mediaType = info[.originalImage] as? String // → public.image
         let imageUrl = info[.originalImage] as? URL // → assets-library://asset/asset.JPG?id=XXXX&ext=JPG
+        print(mediaType)
     }
 }
