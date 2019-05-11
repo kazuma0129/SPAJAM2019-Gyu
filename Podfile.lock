@@ -1,4 +1,7 @@
 PODS:
+  - ActiveLabel (1.0.1)
+  - AMScrollingNavbar (5.2.0)
+  - Cosmos (12.0.1)
   - Firebase/Core (6.0.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 6.0.0)
@@ -20,6 +23,9 @@ PODS:
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
     - GoogleUtilities/UserDefaults (~> 6.0)
+  - FlexibleSteppedProgressBar (0.6.1)
+  - FontAwesome.swift (1.2.0)
+  - FSPagerView (0.8.2)
   - GoogleAppMeasurement (6.0.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -49,29 +55,69 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - ParallaxHeader (2.0.0)
+  - VegaScrollFlowLayout (1.1)
 
 DEPENDENCIES:
+  - "ActiveLabel (from `git@github.com:optonaut/ActiveLabel.swift.git`, branch `master`)"
+  - AMScrollingNavbar
+  - Cosmos (~> 12.0)
   - Firebase/Core
+  - FlexibleSteppedProgressBar
+  - FontAwesome.swift (from `https://github.com/thii/FontAwesome.swift`, branch `swift-4.0`)
+  - FSPagerView
+  - ParallaxHeader (~> 2.0.0)
+  - VegaScrollFlowLayout
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AMScrollingNavbar
+    - Cosmos
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseInstanceID
+    - FlexibleSteppedProgressBar
+    - FSPagerView
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - ParallaxHeader
+    - VegaScrollFlowLayout
+
+EXTERNAL SOURCES:
+  ActiveLabel:
+    :branch: master
+    :git: "git@github.com:optonaut/ActiveLabel.swift.git"
+  FontAwesome.swift:
+    :branch: swift-4.0
+    :git: https://github.com/thii/FontAwesome.swift
+
+CHECKOUT OPTIONS:
+  ActiveLabel:
+    :commit: b4dbc65b177e3795ace41775d3c375170d8afcc2
+    :git: "git@github.com:optonaut/ActiveLabel.swift.git"
+  FontAwesome.swift:
+    :commit: ee1bf6b3db08f969ec7508c0feca3bac0d8b96ff
+    :git: https://github.com/thii/FontAwesome.swift
 
 SPEC CHECKSUMS:
+  ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
+  AMScrollingNavbar: 9df3652d6757f1a24646d8e90cb458591d8b1a6a
+  Cosmos: 4a9f57998a08788a1062c7b8eefbc62d2b590f39
   Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
   FirebaseAnalytics: 1743c5f4de3687d0745709dfdc4b1dea1484f44c
   FirebaseCore: e38f025287b413255a53acc1945d048a112047f7
   FirebaseInstanceID: 0e0348a3c00a734fa376a070f5ad4533ad975cb5
+  FlexibleSteppedProgressBar: 402203e2981409ce3785a5dbd3df0234093fbd58
+  FontAwesome.swift: 609815397a9b51cb4d774969787163c7d1306739
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
   GoogleAppMeasurement: 7f028ea162b72c8f326daec74afc95d94f7a47d6
   GoogleUtilities: f1faafc033ea203adf1783ce00af455bb99d0e5b
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
+  VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
 
-PODFILE CHECKSUM: e769aef928474949acc0c1446f6aab886c8c8bdf
+PODFILE CHECKSUM: 419009a20697ca7a615d23782479bc3fcb396126
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
