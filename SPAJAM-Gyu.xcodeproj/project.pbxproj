@@ -14,6 +14,8 @@
 		453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340952285C35400893B7C /* LaunchScreen.storyboard */; };
 		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
 		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
+		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
+		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuUITests.swift; sourceTree = "<group>"; };
 		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,9 @@
 		4533408B2285C35200893B7C /* SPAJAM-Gyu */ = {
 			isa = PBXGroup;
 			children = (
+				5B3CA9FD2286B71F00932CE4 /* ViewController */,
+				5B3CA9FC2286B70D00932CE4 /* Storyboard */,
 				4533408C2285C35200893B7C /* AppDelegate.swift */,
-				4533408E2285C35200893B7C /* ViewController.swift */,
-				453340902285C35200893B7C /* Main.storyboard */,
 				453340932285C35400893B7C /* Assets.xcassets */,
 				453340952285C35400893B7C /* LaunchScreen.storyboard */,
 				453340982285C35400893B7C /* Info.plist */,
@@ -123,6 +127,56 @@
 				453340AE2285C35400893B7C /* Info.plist */,
 			);
 			path = "SPAJAM-GyuUITests";
+			sourceTree = "<group>";
+		};
+		5B3CA9FC2286B70D00932CE4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5B3CA9FF2286B75F00932CE4 /* Camera */,
+				5B3CA9FE2286B74500932CE4 /* Main */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5B3CA9FD2286B71F00932CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B3CAA062286B86B00932CE4 /* Main */,
+				5B3CAA032286B84900932CE4 /* Camera */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5B3CA9FE2286B74500932CE4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				453340902285C35200893B7C /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B3CA9FF2286B75F00932CE4 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5B3CAA032286B84900932CE4 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5B3CAA072286BF3500932CE4 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5B3CAA062286B86B00932CE4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4533408E2285C35200893B7C /* ViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */,
+				5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */,
 				453340942285C35400893B7C /* Assets.xcassets in Resources */,
 				453340922285C35200893B7C /* Main.storyboard in Resources */,
 			);
@@ -258,6 +313,7 @@
 			files = (
 				4533408F2285C35200893B7C /* ViewController.swift in Sources */,
 				4533408D2285C35200893B7C /* AppDelegate.swift in Sources */,
+				5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
