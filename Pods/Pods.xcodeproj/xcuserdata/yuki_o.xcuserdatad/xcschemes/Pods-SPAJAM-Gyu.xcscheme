@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6B71E4A7DB71E5617DEE02146E279F5"
+               BlueprintIdentifier = "239E3A086193EE18230AEDE94B2645CC"
                BuildableName = "Pods-SPAJAM-Gyu.framework"
                BlueprintName = "Pods-SPAJAM-Gyu"
                ReferencedContainer = "container:Pods.xcodeproj">
