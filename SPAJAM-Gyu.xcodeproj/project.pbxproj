@@ -14,6 +14,7 @@
 		453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340952285C35400893B7C /* LaunchScreen.storyboard */; };
 		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
 		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
+		5B0D31E22287050700984DEC /* cameraExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D31E12287050700984DEC /* cameraExtention.swift */; };
 		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
 		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuUITests.swift; sourceTree = "<group>"; };
 		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0D31E12287050700984DEC /* cameraExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraExtention.swift; sourceTree = "<group>"; };
 		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3CAA072286BF3500932CE4 /* CameraViewController.swift */,
+				5B0D31E12287050700984DEC /* cameraExtention.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				4533408F2285C35200893B7C /* ViewController.swift in Sources */,
 				4533408D2285C35200893B7C /* AppDelegate.swift in Sources */,
 				5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */,
+				5B0D31E22287050700984DEC /* cameraExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

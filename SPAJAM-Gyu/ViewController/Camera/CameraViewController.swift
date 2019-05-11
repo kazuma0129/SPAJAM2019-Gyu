@@ -13,11 +13,12 @@ class CameraViewController: UIViewController{
         super.viewDidAppear(animated)
         
         let c = UIImagePickerController()
-        c.mediaTypes = ["public.image", "public.movie"]
+        c.mediaTypes = ["public.movie"]
         present(c, animated: true)
         
     }
-
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
