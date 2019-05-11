@@ -15,6 +15,7 @@
 		453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453340952285C35400893B7C /* LaunchScreen.storyboard */; };
 		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
 		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
+		45E8541E228705E700273748 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E8541D228705E700273748 /* GoogleService-Info.plist */; };
 		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
 		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
 		9B34EC9FD7B91F86B590EE82 /* Pods_SPAJAM_GyuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */; };
@@ -55,6 +56,7 @@
 		453340A82285C35400893B7C /* SPAJAM-GyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPAJAM-GyuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAM_GyuUITests.swift; sourceTree = "<group>"; };
 		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E8541D228705E700273748 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B58EB990739DA08546A4769 /* Pods-SPAJAM-GyuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuTests.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		4533408B2285C35200893B7C /* SPAJAM-Gyu */ = {
 			isa = PBXGroup;
 			children = (
+				45E8541D228705E700273748 /* GoogleService-Info.plist */,
 				5B3CA9FD2286B71F00932CE4 /* ViewController */,
 				5B3CA9FC2286B70D00932CE4 /* Storyboard */,
 				4533408C2285C35200893B7C /* AppDelegate.swift */,
@@ -206,7 +209,6 @@
 				E66A726F74D4BF8EB5D1D814 /* Pods-SPAJAM-GyuUITests.debug.xcconfig */,
 				01F6B38DFD1E258B311E2272 /* Pods-SPAJAM-GyuUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -335,6 +337,7 @@
 			files = (
 				453340972285C35400893B7C /* LaunchScreen.storyboard in Resources */,
 				5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */,
+				45E8541E228705E700273748 /* GoogleService-Info.plist in Resources */,
 				453340942285C35400893B7C /* Assets.xcassets in Resources */,
 				453340922285C35200893B7C /* Main.storyboard in Resources */,
 			);
