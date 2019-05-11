@@ -7,7 +7,8 @@ target 'SPAJAM-Gyu' do
   pod 'Firebase/Core'
 
   # Pods for SPAJAM-Gyu
-
+  # UILaibrary
+  
   target 'SPAJAM-GyuTests' do
     inherit! :search_paths
     pod 'Firebase/Core'
@@ -19,5 +20,7 @@ target 'SPAJAM-Gyu' do
     pod 'Firebase/Core'
     # Pods for testing
   end
+  
+    
 
 end
