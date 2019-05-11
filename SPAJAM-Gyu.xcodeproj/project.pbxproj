@@ -16,6 +16,7 @@
 		453340A22285C35400893B7C /* SPAJAM_GyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340A12285C35400893B7C /* SPAJAM_GyuTests.swift */; };
 		453340AD2285C35400893B7C /* SPAJAM_GyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453340AC2285C35400893B7C /* SPAJAM_GyuUITests.swift */; };
 		45E8541E228705E700273748 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E8541D228705E700273748 /* GoogleService-Info.plist */; };
+		5B0D31E422870C9B00984DEC /* cameraExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D31E322870C9B00984DEC /* cameraExtention.swift */; };
 		5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CAA072286BF3500932CE4 /* CameraViewController.swift */; };
 		5B3CAA0C2286BF6D00932CE4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */; };
 		9B34EC9FD7B91F86B590EE82 /* Pods_SPAJAM_GyuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7AA25159BC80589A52C03A /* Pods_SPAJAM_GyuTests.framework */; };
@@ -58,6 +59,7 @@
 		453340AE2285C35400893B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E8541D228705E700273748 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B58EB990739DA08546A4769 /* Pods-SPAJAM-GyuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAJAM-GyuTests.release.xcconfig"; path = "Target Support Files/Pods-SPAJAM-GyuTests/Pods-SPAJAM-GyuTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B0D31E322870C9B00984DEC /* cameraExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraExtention.swift; sourceTree = "<group>"; };
 		5B3CAA072286BF3500932CE4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5B3CAA0B2286BF6D00932CE4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		7FB6FF58476E601A710FD0F7 /* Pods_SPAJAM_Gyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAJAM_Gyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3CAA072286BF3500932CE4 /* CameraViewController.swift */,
+				5B0D31E322870C9B00984DEC /* cameraExtention.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				4533408F2285C35200893B7C /* ViewController.swift in Sources */,
 				4533408D2285C35200893B7C /* AppDelegate.swift in Sources */,
 				5B3CAA082286BF3500932CE4 /* CameraViewController.swift in Sources */,
+				5B0D31E422870C9B00984DEC /* cameraExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
