@@ -13,8 +13,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet var table: UITableView!
     
     let imageNames = ["image1", "image2", "image3", "image4"]
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +75,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         print("セルをタップしました")
     }
 }
-    
+
+
 
 
 
