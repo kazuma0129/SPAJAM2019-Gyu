@@ -16,6 +16,11 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var ComentCell: UIImageView!
     
     @IBOutlet weak var niceCell: UIImageView!
+    
+    @IBOutlet var gero: UIImageView!
+    
+    @IBOutlet var buranko: UILabel!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

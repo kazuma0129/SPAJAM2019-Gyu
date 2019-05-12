@@ -12,8 +12,11 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet var table: UITableView!
     
-    let imageNames = ["image1", "image2", "image3", "image4"]
+    let imageNames = ["ima1", "ima2", "ima3", "ima4"]
 
+    let label2Array: NSArray = [
+        "ダブルブランコゲーム","バク宙滑り台",
+        "べちゃべちゃウミガメ","アオハルジャンプ"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,17 +66,24 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let come = cell.viewWithTag(3) as! UIImageView
         come.image = UIImage(named: "comment")
         
+        let icon = cell.viewWithTag(4) as! UIImageView
+        icon.image = UIImage(named: "gero")
+        
+        let buranko = cell.viewWithTag(7) as! UILabel
+        buranko.text = String(describing: label2Array[indexPath.row])
+        
         return cell
     }
     // Cell の高さを１２０にする
     func tableView(_ table: UITableView,
                    heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150.0
+        return 220.0
     }
     // セルをタップした時に呼ばれる
     func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
         print("セルをタップしました")
     }
+    
 }
 
 

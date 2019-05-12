@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ooj-Aq-b7t">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="ooj-Aq-b7t" customClass="HomeViewController" customModule="SPAJAM_Gyu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iEQ-Ol-Fc6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cfd-2Z-hFW">
@@ -23,29 +23,42 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableCell" rowHeight="170" id="eKX-t3-QkP" customClass="CustomTableViewCell" customModule="SPAJAM_Gyu" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="170"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableCell" rowHeight="232" id="eKX-t3-QkP" customClass="CustomTableViewCell" customModule="SPAJAM_Gyu" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="232"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eKX-t3-QkP" id="Zlj-3K-8yu">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="169.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="231.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="bed-b8-Qsj">
-                                                    <rect key="frame" x="9" y="7" width="250" height="151"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nice" translatesAutoresizingMaskIntoConstraints="NO" id="yTO-A5-6yM">
-                                                    <rect key="frame" x="300" y="23" width="44" height="31"/>
+                                                    <rect key="frame" x="266" y="135" width="37" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comment" translatesAutoresizingMaskIntoConstraints="NO" id="Lbh-E1-WiD">
-                                                    <rect key="frame" x="295" y="89" width="55" height="33"/>
+                                                    <rect key="frame" x="222" y="135" width="43" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gero" translatesAutoresizingMaskIntoConstraints="NO" id="B7w-Ii-L9H">
+                                                    <rect key="frame" x="67" y="11" width="35" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- ダブルブランコゲーム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohp-oc-McQ">
+                                                    <rect key="frame" x="117" y="18" width="186" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ima1" translatesAutoresizingMaskIntoConstraints="NO" id="bed-b8-Qsj">
+                                                    <rect key="frame" x="22" y="36" width="331" height="219"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="ComentCell" destination="Lbh-E1-WiD" id="OdX-LL-feQ"/>
+                                            <outlet property="buranko" destination="Ohp-oc-McQ" id="Cke-so-c6d"/>
+                                            <outlet property="gero" destination="B7w-Ii-L9H" id="Rom-2r-RiK"/>
                                             <outlet property="imageCell" destination="bed-b8-Qsj" id="dgs-0i-who"/>
                                             <outlet property="niceCell" destination="yTO-A5-6yM" id="zjb-6W-Ics"/>
                                         </connections>
@@ -57,20 +70,28 @@
                                 </connections>
                             </tableView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="705-VK-MFN">
-                                <rect key="frame" x="-71" y="0.0" width="556" height="330"/>
+                                <rect key="frame" x="-74" y="0.0" width="556" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ViCCRE" translatesAutoresizingMaskIntoConstraints="NO" id="b3u-Lz-L7D">
-                                <rect key="frame" x="132" y="69" width="112" height="32"/>
+                                <rect key="frame" x="144" y="75" width="87" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF1-1P-tCw">
-                                <rect key="frame" x="287" y="65" width="39" height="39"/>
+                                <rect key="frame" x="289" y="66" width="39" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="search"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="4Ia-Cv-0bP">
+                                <rect key="frame" x="330" y="72" width="27" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru2" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-Sc-ahc">
+                                <rect key="frame" x="0.0" y="114" width="414" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGW-GF-SjF">
-                                <rect key="frame" x="30" y="65" width="53" height="41"/>
+                                <rect key="frame" x="0.0" y="65" width="53" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" image="camera"/>
@@ -78,19 +99,14 @@
                                     <segue destination="PFo-u1-cF1" kind="show" id="BX6-mf-a6I"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="4Ia-Cv-0bP">
-                                <rect key="frame" x="334" y="65" width="33" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zuru2" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-Sc-ahc">
-                                <rect key="frame" x="0.0" y="114" width="414" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="41s-0Z-KFV"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="home" id="lb7-gk-WaF"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="lb7-gk-WaF">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-20"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="table" destination="Cfd-2Z-hFW" id="F3j-gF-4iY"/>
@@ -98,7 +114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGY-zH-eGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134.78260869565219" y="114.50892857142857"/>
+            <point key="canvasLocation" x="133.59999999999999" y="113.79310344827587"/>
         </scene>
         <!--Camera-->
         <scene sceneID="7RK-o7-iT4">
@@ -114,9 +130,10 @@
         <image name="back" width="125" height="89"/>
         <image name="camera" width="26" height="19"/>
         <image name="comment" width="12" height="13"/>
+        <image name="gero" width="175" height="175"/>
         <image name="heart" width="29" height="27"/>
         <image name="home" width="35" height="33"/>
-        <image name="image1" width="6000" height="4000"/>
+        <image name="ima1" width="332" height="234"/>
         <image name="nice" width="4" height="4.3333334922790527"/>
         <image name="search" width="21" height="21"/>
         <image name="zuru2" width="972" height="274"/>
