@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03FBD321DFC479C2F574AA505FD1ACAB"
+               BlueprintIdentifier = "DEF7947E930E39695A5A41BBB273720C"
                BuildableName = "Pods_SPAJAM_Gyu.framework"
                BlueprintName = "Pods-SPAJAM-Gyu"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03FBD321DFC479C2F574AA505FD1ACAB"
+            BlueprintIdentifier = "DEF7947E930E39695A5A41BBB273720C"
             BuildableName = "Pods_SPAJAM_Gyu.framework"
             BlueprintName = "Pods-SPAJAM-Gyu"
             ReferencedContainer = "container:Pods.xcodeproj">
